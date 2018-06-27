@@ -1,0 +1,56 @@
+h1 {
+  border-radius: 59px 59px 59px 59px;
+   moz-border-radius: 59px 59px 59px 59px;
+   webkit-border-radius: 59px 59px 59px 59px;
+   border: 10px double #ffffff;
+   text-align: center;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.distancia {
+  padding-top: 50px;
+}
+
+.distancia1 {
+  padding-top: 80px;
+}
+
+.distancia2 {
+  padding-top: 40px;
+}
+
+.distancia3 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#imagenNasa {
+  width: 100px;
+}
+
+.video {
+  margin-left: 350px;
+}
+
+.navbar-brand {
+  color:white;
+}
+
+.nav-link {
+  color:white;
+}
+.comentario {
+color: white;
+border-radius: 63px 63px 63px 63px;
+-moz-border-radius: 63px 63px 63px 63px;
+-webkit-border-radius: 63px 63px 63px 63px;
+border: 7px double #ffffff;
+margin-left: 30px;
+}
+.mail{
+  font-size: 16px;
+  font-style: italic;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOS PLANETAS</title>
+  <link rel= "stylesheet" href="css/estilos-planetas.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="index.html"><img id="imagenNasa"src="imagenes/nasa.jpg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="nuevos-planetas.html">Nuevos planetas<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="satelites.html">Satelites</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="galeria.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Galeria
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="planetas.html">Planetas</a>
+          <a class="dropdown-item" href="galaxias.html">Galaxias</a>
+          <a class="dropdown-item" href="estrellas.html">Estrellas</a>
+        </div>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
+             <li class="nav-item order-2 order-md-1"><a href="#" class="nav-link" title="settings"><i class="fa fa-cog fa-fw fa-lg"></i></a></li>
+             <li class="dropdown order-1">
+                 <button type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn-danger dropdown-toggle">Login <span class="caret"></span></button>
+                 <ul class="dropdown-menu dropdown-menu-right mt-2">
+                    <li class="px-3 py-2">
+                        <form class="form" role="form">
+                             <div class="form-group">
+                                 <input id="emailInput" placeholder="Email" class="form-control form-control-sm" type="text" required="">
+                             </div>
+                             <div class="form-group">
+                                 <input id="passwordInput" placeholder="Password" class="form-control form-control-sm" type="text" required="">
+                             </div>
+                             <div class="form-group">
+                                 <button type="submit" class="btn btn-primary btn-block">Login</button>
+                             </div>
+                             <div class="form-group text-center">
+                                 <small><a href="#" data-toggle="modal" data-target="#modalPassword">¿Ha olvidado su contraseña?</a></small>
+                             </div>
+                             <div class="form-group text-center">
+                                 <small><a href="#" data-toggle="modal" data-target="#modalPassword">Registrarse</a></small>
+                             </div>
+                         </form>
+                     </li>
+                 </ul>
+             </li>
+         </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn-danger my-2 my-sm-0" type="submit">Buscar</button >
+    </form>
+  </div>
+</nav>
+<body style="background-color:black">
+<h1 style="color:white">LOS NUEVOS PLANETAS</h1>
+<br>
+<h2 style="color: white">Descubren un Trío de Planetas Jóvenes Alrededor de una Estrella Recién Nacida</h2>
+<div class="row">
+  <div class="col-sm-6 ">
+    <img style="width: 100%" class="img-responsive imagenPlaneta" src="imagenes/planetas.jpg">
+  </div>
+  <div class="col-sm-6 ">
+    <p id="texto1">Dos equipos independientes de astrónomos han utilizado ALMA para obtener pruebas convincentes de que hay tres jóvenes planetas orbitando alrededor de la estrella HD 163296. Usando una nueva técnica de búsqueda de planetas, los astrónomos identificaron tres perturbaciones en el disco de gas que hay alrededor de la joven estrella: se trata de la evidencia más fuerte hallada hasta el momento de que está siendo orbitada por tres planetas recién formados. Son considerados los primeros planetas descubiertos con ALMA.
+
+      El conjunto ALMA (Atacama Large Millimeter/submillimeter Array) ha transformado nuestra comprensión de los discos protoplanetarios, las fábricas de planetas cargadas de polvo y gas que rodean a estrellas jóvenes. Los anillos y los huecos de estos discos proporcionan interesantes indicios de la presencia de protoplanetas. Sin embargo, otros fenómenos también podrían explicar estas características.
+
+      Pero ahora, usando una nueva técnica de búsqueda de planetas que identifica patrones inusuales en el flujo de gas dentro de un disco de formación de planetas alrededor de una estrella joven, dos equipos de astrónomos han confirmado, de manera independiente, la existencia de diferentes características distintivas que señalan la presencia de planetas recién formados orbitando a una estrella muy joven.
+
+      “Medir el flujo de gas dentro de un disco protoplanetario nos proporciona mucha más seguridad sobre la presencia de planetas alrededor de una estrella joven”, afirma Christophe Pinte, de la Universidad de Monash (Australia) y autor principal de uno de los dos artículos. “Esta técnica ofrece una prometedora nueva vía para comprender cómo se forman los sistemas planetarios”.
+
+      Para hacer sus respectivos descubrimientos, cada equipo analizó observaciones de ALMA de HD 163296, una joven estrella situada a unos 330 años luz de la Tierra, en la constelación de Sagitario (el arquero).
+
+      Esta estrella tiene casi dos veces la masa del Sol, pero solo 4 millones de años de edad (una milésima parte de la edad del Sol).
+
+      “Analizamos el movimiento localizado a pequeña escala del gas en los discos protoplanetarios de la estrella.</p>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-6"> <p id="texto2" 100%> Este nuevo enfoque podría descubrir algunos de los planetas más pequeños de nuestra galaxia, todo gracias a las imágenes de alta resolución de ALMA”, dijo Richard Teague,  astrónomo de la Universidad de Michigan y autor principal del segundo artículo.
+
+  En lugar de centrarse en el polvo del interior del disco, del cual se obtuvieron ya imágenes muy definidas gracias a observaciones anteriores de ALMA, los astrónomos estudiaron el gas de monóxido de carbono (CO) repartido por el disco. Las moléculas de CO emiten una luz muy peculiar en la longitud de onda milimétrica, un rango que ALMA puede observar con gran detalle. Sutiles cambios en la longitud de onda de esta luz debido al efecto Doppler revelaron los movimientos del gas en el disco.
+
+  El equipo dirigido por Teague identificó dos planetas situados aproximadamente a 12.000 millones y 21.000 millones de kilómetros de la estrella. El otro equipo, liderado por Pinte, identificó un planeta a aproximadamente 39.000 millones de kilómetros de la estrella.
+
+  Los dos equipos utilizaron variantes de la misma técnica, que busca anomalías en el flujo del gas (según revelan los cambios en las longitudes de onda de la emisión de CO), lo cual indica que el gas está interactuando con un objeto masivo.
+
+  La técnica utilizada por Teague, que derivó variaciones promedio en el flujo de gas muy  pequeñas (un pequeño porcentaje), reveló el impacto de varios planetas en los movimientos de gas cerca de la estrella. La técnica utilizada por Pinte, que mide el flujo del gas de forma más directa, se adapta mejor al estudio de la parte externa del disco. Permitió a los autores localizar con mayor precisión el tercer planeta, pero se limita a grandes desviaciones del flujo, mayores que un 10%.
+
+  En ambos casos, los investigadores identificaron las áreas donde el flujo del gas no coincide con su entorno, algo parecido a los remolinos que se forman alrededor de una roca en un río. Analizando cuidadosamente ese movimiento, podían ver claramente la influencia de cuerpos planetarios con masas similares a la de Júpiter.</p></div>
+  <div class="col-sm-6"><img style="width: 100%" class="img-responsive imagenPlaneta" src="imagenes/planetanuevo.jpg">
+</div>
+<br>
+<a href="comentarios.html"<p><span class="comentario">Comentarios</span></p>
+  <br>
+  <textarea class="mail" name="comentarios" rows="2" cols="195">Para realizar sus Cuestiones o Comentarios, dirija un e-mail al equipo de redacción con una explicación clara y a la dirección: Info@lanasa.net</textarea>
+
+</body>
+</html>
